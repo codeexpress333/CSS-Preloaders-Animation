@@ -1,0 +1,96 @@
+.preloader5 {
+    width: 75px;
+    height: 10px;
+    display: inline-block;
+}
+
+.preloader5 span {
+    position: absolute;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #000;
+    animation: left1 2s linear infinite alternate;
+}
+
+.preloader5 span:nth-child(2) {
+    animation-name: left2;
+}
+
+.preloader5 span:nth-child(3) {
+    animation-name: left3;
+}
+
+.preloader5 span:nth-child(4) {
+    animation-name: left4;
+}
+
+.preloader5 span:nth-child(5) {
+    animation-name: left5;
+}
+
+
+@keyframes left1 {
+    0% {
+        margin-left: 0px;
+    }
+    50% {
+        margin-left: 64px;
+    }
+    100% {
+        margin-left: 64px;
+    }
+}
+
+@keyframes left2 {
+    0% {
+        margin-left: 0px;
+    }
+    37.5% {
+        margin-left: 48px;
+    }
+    87.5% {
+        margin-left: 48px;
+    }
+    100% {
+        margin-left: 64px;
+    }
+}
+
+@keyframes left3 {
+    0% {
+        margin-left: 0px;
+    }
+    25%, 75% {
+        margin-left: 32px;
+    }
+    100% {
+        margin-left: 64px;
+    }
+}
+
+@keyframes left4 {
+    0% {
+        margin-left: 0px;
+    }
+    12.5%, 62.5% {
+        margin-left: 16px;
+    }
+    100% {
+        margin-left: 64px;
+    }
+}
+
+@keyframes left5 {
+    0% {
+        margin-left: 0px;
+    }
+    50% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 64px;
+    }
+}
+

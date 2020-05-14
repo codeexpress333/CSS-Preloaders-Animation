@@ -1,0 +1,30 @@
+.preloader3 {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.preloader3 span {
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #000;
+    animation: preloader3 1.6s linear infinite;
+}
+
+.preloader3 span:last-child {
+    animation-delay: -0.8s;
+}
+
+@keyframes preloader3 {
+    0% {
+        transform: scale(0, 0);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1, 1);
+        opacity: 0;
+    }
+}
